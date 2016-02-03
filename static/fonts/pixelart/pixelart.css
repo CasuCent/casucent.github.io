@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "PixelArt";
+	src: url("pixelart.eot");
+	src: url("pixelart.eot#iefix") format("embedded-opentype"),
+	url("pixelart.woff") format("woff"),
+	url("pixelart.ttf") format("truetype"),
+	url("pixelart.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}

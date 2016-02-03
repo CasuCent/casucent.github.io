@@ -1,0 +1,114 @@
+html {
+    width: 100%;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #f9f9f9;
+    font-family: 'PixelArt';
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#logo {
+    opacity: 1;
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    animation-name: anim-logo;
+    animation-duration: 1.20s;
+    animation-delay: 0s;
+}
+
+#name {
+    opacity: 1;
+    animation-name: anim-name;
+    animation-duration: 1.7s;
+    animation-delay: 0s;
+}
+
+#row_1 {
+    opacity: 1;
+    animation-name: anim-row_1;
+    animation-duration: 1.7s;
+    animation-delay: 0s;
+}
+
+#row_2 {
+    opacity: 1;
+    animation-name: anim-row_1;
+    animation-duration: 1.7s;
+    animation-delay: 0s;
+}
+
+#row_3 {
+    opacity: 1;
+    animation-name: anim-row_1;
+    animation-duration: 1.7s;
+    animation-delay: 0s;
+}
+
+@keyframes anim-logo {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        -ms-transform: rotate(8deg); /* IE 9 */
+        -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+        transform: rotate(8deg);
+    }
+    100% {
+        opacity: 1;
+        width: 255px;
+    }
+}
+
+@keyframes anim-name {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes anim-row_1 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes anim-row_2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes anim-row_3 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
