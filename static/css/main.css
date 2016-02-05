@@ -16,6 +16,14 @@ p {
     font-size: 2em;
 }
 
+a {
+    color: #264184;
+}
+
+a:hover {
+    color: #337AB7;
+}
+
 .text-small {
     font-size: 1.5em;
 }
@@ -37,24 +45,17 @@ p {
     animation-delay: 0s;
 }
 
-#row_1 {
+.row_cont {
     opacity: 1;
-    animation-name: anim-row_1;
+    animation-name: anim-row_cont;
     animation-duration: 1.7s;
     animation-delay: 0s;
 }
 
-#row_2 {
+.cont {
     opacity: 1;
-    animation-name: anim-row_1;
-    animation-duration: 1.7s;
-    animation-delay: 0s;
-}
-
-#row_3 {
-    opacity: 1;
-    animation-name: anim-row_1;
-    animation-duration: 1.7s;
+    animation-name: anim-row_cont;
+    animation-duration: 2s;
     animation-delay: 0s;
 }
 
@@ -85,31 +86,7 @@ p {
     }
 }
 
-@keyframes anim-row_1 {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes anim-row_2 {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes anim-row_3 {
+@keyframes anim-row_cont {
     0% {
         opacity: 0;
     }
