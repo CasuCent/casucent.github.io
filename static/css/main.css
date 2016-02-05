@@ -3,10 +3,9 @@ html {
 }
 
 body {
-    /*background-color: #1e1e1e;*/
-    background-color: #001c26;
+    background-color: #1e1e1e;
     color: #f9f9f9;
-    font-family: 'DisposableDroidBB', 'PixelArt';
+    font-family: 'DisposableDroidBB';
 }
 
 h1 {
