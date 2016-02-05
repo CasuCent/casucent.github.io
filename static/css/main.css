@@ -3,13 +3,22 @@ html {
 }
 
 body {
-    background-color: #1e1e1e;
+    /*background-color: #1e1e1e;*/
+    background-color: #001c26;
     color: #f9f9f9;
-    font-family: 'PixelArt';
+    font-family: 'DisposableDroidBB', 'PixelArt';
+}
+
+h1 {
+    font-size: 4em;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 2em;
+}
+
+.text-small {
+    font-size: 1.5em;
 }
 
 #logo {
