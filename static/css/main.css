@@ -17,16 +17,25 @@ p {
 }
 
 a {
-    color: #264184;
+    color: #337AB7;
 }
 
 a:hover {
-    color: #337AB7;
+    color: #3586c5;
 }
 
 .text-small {
     font-size: 1.5em;
 }
+
+#social a i {
+    color: white;
+}
+
+#social a i:hover {
+    color: #f2f2f2;
+}
+
 
 #logo {
     opacity: 1;
